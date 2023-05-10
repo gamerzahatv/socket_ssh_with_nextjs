@@ -1,0 +1,39 @@
+
+html,
+body{
+
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  background: #c6c6c6;
+  /*font-family: 'Thasadith', sans-serif;*/
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#ssh_server_stop{
+  /*display: none;*/
+}
+
+#navbar {
+  position: fixed;
+  z-index: 100;
+}
+
+/* Set font size to 11px when screen is narrower than 600px */
+#output {
+  font-size: 10px;
+}
+@media screen and (min-width: 900px) {
+  #output {
+    font-size: 16px;
+  }
+}
+
+
+/* Terminal.css */
+#terminal{
+  background-color: black;
+  color: rgb(92, 236, 79);
+}
