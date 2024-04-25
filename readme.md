@@ -31,13 +31,16 @@ http://localhost:32121/FTP_pages
 
 
 ## Tests socket server
-
-if succes it show this 
+Use this link to test server.
 
 ```bash
 http://localhost:12123/
-
 ```
+
+if succes it show this 
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 
 
 ## Screenshots
