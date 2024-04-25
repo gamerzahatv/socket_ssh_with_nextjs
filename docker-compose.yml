@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  socket_server:
+    container_name: appserver
+    build:
+      context: ./socket_server
+      dockerfile: Dockerfile
+    ports:
+      - "12123:4000"
+   
+  webclient:
+    container_name: appclient
+    build:
+      context: ./ssh_client
+      dockerfile: Dockerfile
+    ports:
+      - "32121:3000"
+
+
+
+

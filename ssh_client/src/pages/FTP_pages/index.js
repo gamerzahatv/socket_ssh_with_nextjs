@@ -144,7 +144,7 @@ const onSubmit = (event) => {
     password: target.pass.value,
   };
 
-  socket = io("http://meowpong.serveminecraft.net:4000");
+  socket = io("http://localhost:12123/");
   socket.on("connect", () => {
     console.log("Connected to server!");
     Swal.fire({
